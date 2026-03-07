@@ -25,3 +25,4 @@
 - [ ] ccccdg
 - [ ] wow
 - [ ] this is using my rofi 🔽
+- [ ] make this automation scipt push in github and codeberg ⏫
