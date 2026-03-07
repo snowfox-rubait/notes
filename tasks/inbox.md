@@ -1,6 +1,7 @@
 # Inbox
 
 - [ ] Create Proton Mail account and set as recovery on GitHub, Codeberg, and other important accounts ⏫
+- [ ] Update the post-install.md to mention about git i made. i can pull from git for most of the configs that is included there. some may have to be configured manually.
 - [ ] Create Fiverr account and list 3 gigs ⏫
 - [ ] Create Upwork account and write profile ⏫
 - [ ] Create LinkedIn profile ⏫
@@ -10,9 +11,10 @@
 - [ ] Apply to junior sysadmin roles on bdjobs.com ⏫
 - [ ] Improve brightness script — detect laptop vs desktop, brightnessctl or ddcutil ⏫
 - [ ] VPN waybar click-to-connect ⏫
-- [ ] Make full git workflow guide (past work, daily use, future reference) ⏫
+- [x] Make full git workflow guide (past work, daily use, future reference) ⏫ ✅ 2026-03-08
 - [ ] Export important stuff from WhatsApp ⏫
 - [ ] Rewrite profile about me folder ⏫
 - [ ] Update 02_Business_Plans.md and 03_Roadmap.md ⏫
 - [ ] Portfolio site rebuild (blocked on Proxmox) ⏫
 - [ ] Proxmox setup ⏫
+- [ ] this is a demo task 🔽
