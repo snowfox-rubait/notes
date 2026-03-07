@@ -465,6 +465,17 @@ git remote -v
 git remote remove origin
 ```
 
+### Multi-machine sync
+
+If you have a VPS or self-hosted Gitea, add it as a remote and push there. Then on each machine:
+
+```bash
+git pull    # before editing
+git push    # after committing
+```
+
+Syncthing is a simpler alternative if you don't want to think about git across machines, but you lose history. Git is better.
+
 ---
 
 ## 12. Pushing to Multiple Remotes
@@ -543,6 +554,12 @@ nvim filename.md           # open the conflicted file
 git add filename.md        # stage the resolved file
 git commit                 # complete the merge
 ```
+
+### How to avoid conflicts
+
+- **Solo work:** conflicts are rare. They only happen if you revert a commit whose lines were later edited.
+- **Team work:** always `git pull` before starting new work. Small focused commits on separate concerns reduce overlap.
+- Before reverting a specific commit, inspect it first: `git show <hash>` — check if those lines were touched again later.
 
 ---
 
