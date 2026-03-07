@@ -181,6 +181,30 @@ See `monitor-control-omarchyos.md` for full setup.
 
 ---
 
+### Windows Dual Boot (Limine)
+
+File: `/boot/limine.conf` (root-owned, not tracked in dotfiles)
+
+**Step 1 — Copy Microsoft EFI files from the Windows drive:**
+```bash
+sudo mkdir -p /run/media/$USER/winefi
+sudo mount -t vfat /dev/nvme0n1p1 /run/media/$USER/winefi
+sudo cp -r /run/media/$USER/winefi/EFI/Microsoft /boot/EFI/
+sudo umount /run/media/$USER/winefi
+```
+
+> Replace `/dev/nvme0n1p1` with your actual Windows EFI partition. Check with `lsblk`.
+
+**Step 2 — Add the boot entry to `/boot/limine.conf`:**
+```
+/Windows
+   comment: Windows
+   protocol: efi
+   path: boot():/EFI/Microsoft/Boot/bootmgfw.efi
+```
+
+---
+
 ### Fix Caps Lock Key
 
 File: `~/.config/hypr/input.conf`
