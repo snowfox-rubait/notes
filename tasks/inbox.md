@@ -1,5 +1,6 @@
 # Inbox
 
+- [ ] Create Proton Mail account and set as recovery on GitHub, Codeberg, and other important accounts ⏫
 - [ ] Create Fiverr account and list 3 gigs ⏫
 - [ ] Create Upwork account and write profile ⏫
 - [ ] Create LinkedIn profile ⏫
