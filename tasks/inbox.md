@@ -24,3 +24,4 @@
 - [ ] haw
 - [ ] ccccdg
 - [ ] wow
+- [ ] this is using my rofi 🔽
