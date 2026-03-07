@@ -869,3 +869,13 @@ ssh-add ~/.ssh/id_ed25519
 ---
 
 > "A commit is a letter to your future self. Write it like they're in a hurry and mildly annoyed at you."
+
+
+## 20. My Repos
+
+| Repo                      | Location                               | Command | Remotes                     |
+| ------------------------- | -------------------------------------- | ------- | --------------------------- |
+| dotfiles                  | `~/.dotfiles` (bare)                   | `dot`   | GitHub + Codeberg (private) |
+| notes                     | `~/Documents/Obsidian Vault`           | `git`   | GitHub + Codeberg (public)  |
+| protonvpn-wireguard-linux | `~/projects/protonvpn-wireguard-linux` | `git`   | GitHub + Codeberg (public)  |
+| omarchy-webapp-profile    | `~/projects/omarchy-webapp-profile`    | `git`   | GitHub + Codeberg (public)  |
