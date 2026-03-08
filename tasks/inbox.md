@@ -31,3 +31,4 @@
 - [ ] huh? ⏫
 - [ ] huh? ⏫
 - [ ] huh? 🔼
+- [ ] fix gpt backup table corruption with claude. 120GB ssd - Omarchy ⏫
